@@ -1,0 +1,956 @@
+(function (lib, img, cjs) {
+
+var p; // shortcut to reference prototypes
+
+// library properties:
+lib.properties = {
+	width: 1100,
+	height: 600,
+	fps: 24,
+	color: "#FFFFFF",
+	manifest: [
+		{src:"images/A5.jpg", id:"A5"},
+		{src:"images/c1.png", id:"c1"},
+		{src:"images/c2.png", id:"c2"},
+		{src:"images/c3.png", id:"c3"},
+		{src:"images/c4.png", id:"c4"},
+		{src:"images/f1.png", id:"f1"},
+		{src:"images/f2.png", id:"f2"},
+		{src:"images/f3.png", id:"f3"},
+		{src:"images/fl1.png", id:"fl1"},
+		{src:"images/fl2.png", id:"fl2"},
+		{src:"images/fl3.png", id:"fl3"},
+		{src:"images/fl4.png", id:"fl4"},
+		{src:"images/fl5.png", id:"fl5"},
+		{src:"images/Floor2.jpg", id:"Floor2"},
+		{src:"images/Floor1.jpg", id:"Floor1"},
+		{src:"images/floor3.jpg", id:"floor3"},
+		{src:"images/floor4.jpg", id:"floor4"},
+		{src:"images/floor5.jpg", id:"floor5"},
+		{src:"images/images.jpg", id:"images"},
+		{src:"images/roof2.jpg", id:"roof2"},
+		{src:"images/Roof1.jpg", id:"Roof1"},
+		{src:"images/saghf1.jpg", id:"saghf1"},
+		{src:"images/w1.png", id:"w1"},
+		{src:"images/w2.png", id:"w2"},
+		{src:"images/w3.png", id:"w3"},
+		{src:"images/w4.png", id:"w4"},
+		{src:"images/wall3.jpg", id:"wall3"}
+	]
+};
+
+
+
+// symbols:
+
+
+
+(lib.A5 = function() {
+	this.initialize(img.A5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.c1 = function() {
+	this.initialize(img.c1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.c2 = function() {
+	this.initialize(img.c2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.c3 = function() {
+	this.initialize(img.c3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.c4 = function() {
+	this.initialize(img.c4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.f1 = function() {
+	this.initialize(img.f1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.f2 = function() {
+	this.initialize(img.f2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.f3 = function() {
+	this.initialize(img.f3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.fl1 = function() {
+	this.initialize(img.fl1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.fl2 = function() {
+	this.initialize(img.fl2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.fl3 = function() {
+	this.initialize(img.fl3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.fl4 = function() {
+	this.initialize(img.fl4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.fl5 = function() {
+	this.initialize(img.fl5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.Floor2 = function() {
+	this.initialize(img.Floor2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,88);
+
+
+(lib.Floor1 = function() {
+	this.initialize(img.Floor1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,176);
+
+
+(lib.floor3 = function() {
+	this.initialize(img.floor3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,88);
+
+
+(lib.floor4 = function() {
+	this.initialize(img.floor4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,111,111);
+
+
+(lib.floor5 = function() {
+	this.initialize(img.floor5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,222,222);
+
+
+(lib.images = function() {
+	this.initialize(img.images);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,259,194);
+
+
+(lib.roof2 = function() {
+	this.initialize(img.roof2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,255);
+
+
+(lib.Roof1 = function() {
+	this.initialize(img.Roof1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,176);
+
+
+(lib.saghf1 = function() {
+	this.initialize(img.saghf1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,88);
+
+
+(lib.w1 = function() {
+	this.initialize(img.w1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.w2 = function() {
+	this.initialize(img.w2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.w3 = function() {
+	this.initialize(img.w3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.w4 = function() {
+	this.initialize(img.w4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,777,583);
+
+
+(lib.wall3 = function() {
+	this.initialize(img.wall3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,77,77);
+
+
+(lib.Symbol17 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("Ak4k4IJxAAIAAJxIpxAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("Ak4E5IAApxIJxAAIAAJxg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-32.3,-32.3,64.8,64.8);
+
+
+(lib.Symbol16 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("Ak8k8IJ5AAIAAJ5Ip5AAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("Ak7E8IAAp3IJ3AAIAAJ3g");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-32.7,-32.7,65.4,65.4);
+
+
+(lib.Symbol15 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlVlVIKrAAIAAKrIqrAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlVFWIAAqrIKrAAIAAKrg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-35.2,-35.2,70.5,70.5);
+
+
+(lib.Symbol14 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol13 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlMlMIKZAAIAAKZIqZAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlMFMIAAqYIKYAAIAAKYg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34.3,-34.3,68.6,68.6);
+
+
+(lib.Symbol12 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol11 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlFlFIKLAAIAAKLIqLAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlFFGIAAqLIKLAAIAAKLg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-33.6,-33.6,67.4,67.4);
+
+
+(lib.Symbol10 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol9 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol8 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol7 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol6 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol5 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol4 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol3 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.Symbol2 = function() {
+	this.initialize();
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#252525").ss(1,1,1).p("AlJlJIKTAAIAAKTIqTAAg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF0000").s().p("AlJFKIAAqTIKTAAIAAKTg");
+
+	this.addChild(this.shape_1,this.shape);
+}).prototype = p = new cjs.Container();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+// stage content:
+(lib.B = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_32.addEventListener('click',fl_ClickToLoadImageFromLibrary_49.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_49()
+		{
+			
+			var libImage = new lib.c1();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_33.addEventListener('click',fl_ClickToLoadImageFromLibrary_50.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_50()
+		{
+			
+			var libImage = new lib.c2();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_34.addEventListener('click',fl_ClickToLoadImageFromLibrary_51.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_51()
+		{
+			
+			var libImage = new lib.c3();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_35.addEventListener('click',fl_ClickToLoadImageFromLibrary_52.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_52()
+		{
+			
+			var libImage = new lib.c4();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_36.addEventListener('click',fl_ClickToLoadImageFromLibrary_53.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_53()
+		{
+			
+			var libImage = new lib.fl1();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_37.addEventListener('click',fl_ClickToLoadImageFromLibrary_54.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_54()
+		{
+			
+			var libImage = new lib.fl2();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_38.addEventListener('click',fl_ClickToLoadImageFromLibrary_55.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_55()
+		{
+			
+			var libImage = new lib.fl3();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_39.addEventListener('click',fl_ClickToLoadImageFromLibrary_56.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_56()
+		{
+			
+			var libImage = new lib.fl4();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_40.addEventListener('click',fl_ClickToLoadImageFromLibrary_57.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_57()
+		{
+			
+			var libImage = new lib.fl5();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_41.addEventListener('click',fl_ClickToLoadImageFromLibrary_58.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_58()
+		{
+			
+			var libImage = new lib.w1();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_42.addEventListener('click',fl_ClickToLoadImageFromLibrary_59.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_59()
+		{
+			
+			var libImage = new lib.w2();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_43.addEventListener('click',fl_ClickToLoadImageFromLibrary_60.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_60()
+		{
+			
+			var libImage = new lib.w3();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_44.addEventListener('click',fl_ClickToLoadImageFromLibrary_61.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_61()
+		{
+			
+			var libImage = new lib.w4();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_45.addEventListener('click',fl_ClickToLoadImageFromLibrary_62.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_62()
+		{
+			
+			var libImage = new lib.f1();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_46.addEventListener('click',fl_ClickToLoadImageFromLibrary_63.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_63()
+		{
+			
+			var libImage = new lib.f2();
+			this.addChild(libImage);
+		}
+		
+		
+		/* Click to Load Image from Library
+		Clicking the symbol instance displays the specified image from Library.
+		To load an image from the Library it must be located in the Library with its Linkage property set to a valid name.
+		
+		Instructions:
+		1. Add 'MyImage' as the linkage name to the bitmap in library
+		*/
+		
+		
+		this.button_47.addEventListener('click',fl_ClickToLoadImageFromLibrary_64.bind(this));
+		
+		function fl_ClickToLoadImageFromLibrary_64()
+		{
+			
+			var libImage = new lib.f3();
+			this.addChild(libImage);
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Actions
+	this.button_47 = new lib.Symbol17();
+	this.button_47.setTransform(983.3,544.1,1.052,1.052);
+	this.button_47.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_47, 0, 1, 1);
+
+	this.button_46 = new lib.Symbol16();
+	this.button_46.setTransform(900.8,544.6,1.041,1.041);
+	this.button_46.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_46, 0, 1, 1);
+
+	this.button_45 = new lib.Symbol15();
+	this.button_45.setTransform(821.1,544.6,0.964,0.964);
+	this.button_45.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_45, 0, 1, 1);
+
+	this.button_44 = new lib.Symbol14();
+	this.button_44.setTransform(1059.5,412);
+	this.button_44.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_44, 0, 1, 1);
+
+	this.button_43 = new lib.Symbol13();
+	this.button_43.setTransform(976.5,412,0.991,0.991);
+	this.button_43.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_43, 0, 1, 1);
+
+	this.button_40 = new lib.Symbol10();
+	this.button_40.setTransform(818.6,294.4);
+	this.button_40.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_40, 0, 1, 1);
+
+	this.button_39 = new lib.Symbol9();
+	this.button_39.setTransform(1059.5,216.9);
+	this.button_39.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_39, 0, 1, 1);
+
+	this.button_38 = new lib.Symbol8();
+	this.button_38.setTransform(976.5,216.9);
+	this.button_38.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_38, 0, 1, 1);
+
+	this.button_37 = new lib.Symbol7();
+	this.button_37.setTransform(897.3,216.9);
+	this.button_37.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_37, 0, 1, 1);
+
+	this.button_36 = new lib.Symbol6();
+	this.button_36.setTransform(818.6,216.9);
+	this.button_36.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_36, 0, 1, 1);
+
+	this.button_35 = new lib.Symbol5();
+	this.button_35.setTransform(1059.5,98.1);
+	this.button_35.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_35, 0, 1, 1);
+
+	this.button_34 = new lib.Symbol4();
+	this.button_34.setTransform(976.9,98.1);
+	this.button_34.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_34, 0, 1, 1);
+
+	this.button_33 = new lib.Symbol3();
+	this.button_33.setTransform(897.3,98.1);
+	this.button_33.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_33, 0, 1, 1);
+
+	this.button_32 = new lib.Symbol2();
+	this.button_32.setTransform(817.5,98.1);
+	this.button_32.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_32, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_32},{t:this.button_33},{t:this.button_34},{t:this.button_35},{t:this.button_36},{t:this.button_37},{t:this.button_38},{t:this.button_39},{t:this.button_40},{t:this.button_43},{t:this.button_44},{t:this.button_45},{t:this.button_46},{t:this.button_47}]}).wait(1));
+
+	// Layer 4
+	this.button_42 = new lib.Symbol12();
+	this.button_42.setTransform(897.3,412);
+	this.button_42.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_42, 0, 1, 1);
+
+	this.button_41 = new lib.Symbol11();
+	this.button_41.setTransform(818.7,412,1.01,1.01);
+	this.button_41.alpha = 0.012;
+	new cjs.ButtonHelper(this.button_41, 0, 1, 1);
+
+	this.text = new cjs.Text("FRAME", "bold 16px 'Arial'");
+	this.text.lineHeight = 19;
+	this.text.lineWidth = 95;
+	this.text.setTransform(786.9,473.8);
+
+	this.text_1 = new cjs.Text("WALL", "bold 16px 'Arial'");
+	this.text_1.lineHeight = 19;
+	this.text_1.lineWidth = 60;
+	this.text_1.setTransform(786.9,352.5);
+
+	this.text_2 = new cjs.Text("FLOOR", "bold 16px 'Arial'");
+	this.text_2.lineHeight = 19;
+	this.text_2.lineWidth = 95;
+	this.text_2.setTransform(786.9,152.3);
+
+	this.text_3 = new cjs.Text("CEILING", "bold 16px 'Arial'");
+	this.text_3.lineHeight = 19;
+	this.text_3.lineWidth = 95;
+	this.text_3.setTransform(786.9,41);
+
+	this.text_4 = new cjs.Text("Contact:\nwww.facebook.com/4D.Rendering", "bold 20px 'Arial'");
+	this.text_4.lineHeight = 23;
+	this.text_4.lineWidth = 364;
+	this.text_4.setTransform(237.9,524.4);
+
+	this.text_5 = new cjs.Text("CHOOSE THE MATERIAL", "bold 16px 'Arial'");
+	this.text_5.lineHeight = 19;
+	this.text_5.lineWidth = 202;
+	this.text_5.setTransform(834.4,4.7);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EANrgoBIKUAAIAAKUIqUAAgEAAxgoBIKUAAIAAKUIqUAAgANr1cIKUAAIAAKUIqUAAgANrJBIKUAAIAAKUIqUAAgAAx1cIKUAAIAAKUIqUAAgEgLqgoBIKUAAIAAKUIqUAAgEgX+goBIKUAAIAAKUIqUAAgArq1cIKUAAIAAKUIqUAAgA38pVIKUAAIAAKSIqUAAgArqJBIKUAAIAAKUIqUAAgA3+1cIKUAAIAAKUIqUAAgA3+JBIKUAAIAAKUIqUAAgA3jduIKUAAIAAKUIqUAAgArHduIKUAAIAAKUIqUAAgABxduIKUAAIAAKUIqUAAgAAxJBIKUAAIAAKUIqUAAg");
+	this.shape.setTransform(939,321.3);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.bf(img.roof2, null, new cjs.Matrix2D(1,0,0,1,-345,-1000)).s().p("AlIFJIAAqRIKRAAIAAKRg");
+	this.shape_1.setTransform(897.3,98.1);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.bf(img.Roof1, null, new cjs.Matrix2D(1.228,0,0,1.228,-1227.9,-2455.8)).s().p("AlJFJIAAqRIKTAAIAAKRg");
+	this.shape_2.setTransform(818.5,98.1);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.bf(img.wall3, null, new cjs.Matrix2D(1,0,0,1,-38.5,-38.5)).s().p("AlJFJIAAqRIKSAAIAAKRg");
+	this.shape_3.setTransform(1059.5,98.1);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.bf(img.saghf1, null, new cjs.Matrix2D(1,0,0,1,-166.5,-166.5)).s().p("AlIFJIAAqRIKRAAIAAKRg");
+	this.shape_4.setTransform(976.9,98.1);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.bf(img.Floor1, null, new cjs.Matrix2D(1,0,0,1,-44,-88)).s().p("AlJFKIAAqTIKTAAIAAKTg");
+	this.shape_5.setTransform(818.5,216.9);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.bf(img.floor5, null, new cjs.Matrix2D(1,0,0,1,-111,-111)).s().p("AlIFJIAAqSIKRAAIAAKSg");
+	this.shape_6.setTransform(818.6,294.5);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.bf(img.Floor2, null, new cjs.Matrix2D(1,0,0,1,-44,-44)).s().p("AlIFKIAAqTIKRAAIAAKTg");
+	this.shape_7.setTransform(897.3,216.9);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.bf(img.floor3, null, new cjs.Matrix2D(1,0,0,1,-44,-44)).s().p("AlIFKIAAqTIKRAAIAAKTg");
+	this.shape_8.setTransform(976.9,216.9);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.bf(img.floor4, null, new cjs.Matrix2D(1,0,0,1,-55.5,-55.5)).s().p("AlJFKIAAqTIKSAAIAAKTg");
+	this.shape_9.setTransform(1059.5,216.9);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.bf(img.saghf1, null, new cjs.Matrix2D(1,0,0,1,-166.5,-166.5)).s().p("AlIFJIAAqSIKRAAIAAKSg");
+	this.shape_10.setTransform(976.9,412);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.bf(img.Roof1, null, new cjs.Matrix2D(1,0,0,1,-1000,-2000)).s().p("AlJFJIAAqSIKTAAIAAKSg");
+	this.shape_11.setTransform(818.5,412);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.bf(img.roof2, null, new cjs.Matrix2D(1,0,0,1,-345,-1000)).s().p("AlIFJIAAqSIKRAAIAAKSg");
+	this.shape_12.setTransform(897.3,412);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.bf(img.wall3, null, new cjs.Matrix2D(1,0,0,1,-38.5,-38.5)).s().p("AlJFJIAAqSIKSAAIAAKSg");
+	this.shape_13.setTransform(1059.5,412);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.bf(img.images, null, new cjs.Matrix2D(1,0,0,1,-129.5,-97)).s().p("AlIFJIAAqRIKRAAIAAKRg");
+	this.shape_14.setTransform(983.3,544.6);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#998766").s().p("AlIFJIAAqRIKSAAIAAKRg");
+	this.shape_15.setTransform(900.8,544.6);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#252525").s().p("AlIFJIAAqRIKRAAIAAKRg");
+	this.shape_16.setTransform(821.1,544.6);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text},{t:this.button_41},{t:this.button_42}]}).wait(1));
+
+	// Layer 1
+	this.instance = new lib.A5();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(550,300,1093.5,600);
+
+})(lib = lib||{}, images = images||{}, createjs = createjs||{});
+var lib, images, createjs;
