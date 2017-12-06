@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product 1</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/template.min.css" rel="stylesheet">
+    <link href="css/app.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- uncomment code for absolute positioning tweek see top comment in css -->
+        <!-- <div class="absolute-wrapper"> </div> -->
+        <!-- Menu -->
+        <div class="side-menu">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div class="brand-wrapper">
+                        <!-- Hamburger -->
+                        <button type="button" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+    
+                        <!-- Brand -->
+                        <div class="brand-name-wrapper">
+                            <a class="navbar-brand" href="#">Product 1</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Menu -->
+                <div class="side-menu-container">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="lnk-modal" data-target="cupboard">Cup Board</a></li>
+                        <li><a href="#" class="lnk-modal" data-target="worktop">Worktop</a></li>
+                        <li><a href="#" class="lnk-modal" data-target="backsplash">Backsplash</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="container-fluid">
+            <div class="side-body">
+                <div class="ui-kitchen">
+                    <div class="ui-bg background">
+                        <div class="ui-bg cupboard"></div>
+                        <div class="ui-bg backsplash"></div>
+                        <div class="ui-bg worktop"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="cupboard" tabindex="-1" role="dialog" aria-labelledby="cupboardLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="cupboardLabel">Cup Board</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="grid-list">
+                    <li><a href="#" class="lnk-thumb" data-layer="cupboard-1"><img src="images/product-1/thumbnail/cupboard/1.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="cupboard-2"><img src="images/product-1/thumbnail/cupboard/2.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="cupboard-3"><img src="images/product-1/thumbnail/cupboard/3.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Cancel</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="worktop" tabindex="-1" role="dialog" aria-labelledby="worktopLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="worktopLabel">Worktop</h4>
+            </div>
+            <div class="modal-body">
+                <fieldset>
+                    <legend>12mm</legend>
+                    
+                    <ul class="grid-list">
+                        <li><a href="#" class="lnk-thumb" data-layer="worktop-12mm-1"><img src="images/product-1/thumbnail/worktop/12-mm/1.jpg"></a></li>
+                        <li><a href="#" class="lnk-thumb" data-layer="worktop-12mm-2"><img src="images/product-1/thumbnail/worktop/12-mm/2.jpg"></a></li>
+                        <li><a href="#" class="lnk-thumb" data-layer="worktop-12mm-3"><img src="images/product-1/thumbnail/worktop/12-mm/3.jpg"></a></li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>40mm</legend>
+                    
+                    <ul class="grid-list">
+                        <li><a href="#" class="lnk-thumb" data-layer="worktop-40mm-1"><img src="images/product-1/thumbnail/worktop/40-mm/1.jpg"></a></li>
+                        <li><a href="#" class="lnk-thumb" data-layer="worktop-40mm-2"><img src="images/product-1/thumbnail/worktop/40-mm/2.jpg"></a></li>
+                        <li><a href="#" class="lnk-thumb" data-layer="worktop-40mm-3"><img src="images/product-1/thumbnail/worktop/40-mm/3.jpg"></a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Cancel</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="backsplash" tabindex="-1" role="dialog" aria-labelledby="backsplashLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="backsplashLabel">Backsplash</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="grid-list">
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-1"><img src="images/product-1/thumbnail/backsplash/1.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-2"><img src="images/product-1/thumbnail/backsplash/2.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-3"><img src="images/product-1/thumbnail/backsplash/3.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-4"><img src="images/product-1/thumbnail/backsplash/4.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-5"><img src="images/product-1/thumbnail/backsplash/5.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-6"><img src="images/product-1/thumbnail/backsplash/6.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-7"><img src="images/product-1/thumbnail/backsplash/7.jpg"></a></li>
+                    <li><a href="#" class="lnk-thumb" data-layer="backsplash-8"><img src="images/product-1/thumbnail/backsplash/8.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Cancel</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="products" tabindex="-1" role="dialog" aria-labelledby="productsLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="productsLabel">Products</h4>
+                </div>
+                
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Product 1</a>
+                    <a href="#" class="list-group-item">Product 2</a>
+                    <a href="#" class="list-group-item">Product 3</a>
+                    <a href="#" class="list-group-item">Product 4</a>
+                    <a href="#" class="list-group-item">Product 5</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/loading-overlay/loadingoverlay.min.js"></script>
+    <script src="js/loading-overlay/loadingoverlay-progress.min.js"></script>
+    <script src="js/jquery.toaster.min.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/template.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
